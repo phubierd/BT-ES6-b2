@@ -18,16 +18,19 @@ document.getElementById("btnKQ").onclick = (e) => {
         // console.log(arrTitle);
 
     }
-    // console.log("nhanVien", nhanVien);
+    console.log("nhanVien", nhanVien);
     console.log("arrTitle",arrTitle)
     let contentTitle = ``;
  
-    document.getElementById('myTableBody').innerHTML=`<tr>${arrTitle[0]}</tr> </br>
-    <tr>${arrTitle[1]}</tr>`
+    
 
     let chucVu = document.getElementById("chucVu").value;
     // console.log("chucVu",chucVu)
 
+
+    for(let value of nhanVien){
+        console.log(value)
+    }
 
 
 
